@@ -39,11 +39,11 @@
           display: inline-block;
           background-color: #007bff;
           color: #fff;
-          padding: 10px 20px;
+          padding: 10px;
           font-size: 18px;
           margin: 20px auto;
           text-align: center;
-          border-radius: 5px;
+          border-radius: 50%;
           text-decoration: none;
           box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
           transition: background-color 0.3s ease;
@@ -51,6 +51,12 @@
 
       .mail-button:hover {
           background-color: #0056b3;
+      }
+
+      /* Mail icon styling */
+      .mail-button::before {
+          content: "\2709"; /* Unicode for envelope/mail icon */
+          font-size: 24px;
       }
 
   </style>
@@ -66,8 +72,8 @@
   <!-- Embed Looker Studio iframe -->
   <iframe width="800" height="450" src="https://lookerstudio.google.com/embed/reporting/9cc389f0-edff-4dcf-8ded-c9b0dcc65580/page/EaM9D" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
 
-  <!-- Mail Me Button -->
-  <a href="mailto:mail@thura.info" class="mail-button">Mail Me for More Information</a>
+  <!-- Mail Me Button with Icon -->
+  <a href="mailto:data@thura.info" class="mail-button"></a>
 
   <script src="./app.js"></script>
 
