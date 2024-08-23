@@ -2,7 +2,7 @@ Looker Studio Embedding Project
 Aim: To display interactive Looker Studio dashboards on your own website.
 
 Create your own copies of the files
-1. Go to this GitHub link: https://github.com/dinkwiz/tableau_embed
+1. Go to this GitHub link: https://aungthurahtoo.github.io/Myanmar_Census_2014/ for Looker Studio or https://github.com/dinkwiz/tableau_embed for Tableau
 2. Open the index.html file.
 3. Highlight and copy the code.
 4. Open a new NotePad file.
